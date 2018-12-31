@@ -22,7 +22,7 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DisableProgramGroupPage=yes
 OutputDir=D:\Documents\Unity Projects\Pen War\ReleasesInfoBeforeFile=D:\Documents\Unity Projects\Pen War\Releases\ModifyInfo.txt
-OutputBaseFilename=setup_v{#MyAppVersion}
+OutputBaseFilename=setup
 Compression=lzma
 SolidCompression=yes
 
