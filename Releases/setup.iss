@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Pen War"
-#define MyAppVersion "1.4.2"
+#define MyAppVersion "1.5.1"
 #define MyAppPublisher "Lawarthur(Personal)"
 #define MyAppURL "http://localhost/"
 #define MyAppExeName "Pen War.exe"
@@ -35,8 +35,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "D:\Documents\Unity Projects\Pen War\Builds\Pen War.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Documents\Unity Projects\Pen War\Builds\Pen War_Data\*"; DestDir: "{app}\Pen War_Data"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "D:\Documents\Unity Projects\Pen War\Builds\Mono\*"; DestDir: "{app}\Mono"; Flags: ignoreversion recursesubdirs createallsubdirsSource: "D:\Documents\Unity Projects\Pen War\Builds\MonoBleedingEdge\*"; DestDir: "{app}\MonoBleedingEdge"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\Documents\Unity Projects\Pen War\Builds\Pen War_Data\*"; DestDir: "{app}\Pen War_Data"; Flags: ignoreversion recursesubdirs createallsubdirsSource: "D:\Documents\Unity Projects\Pen War\Builds\MonoBleedingEdge\*"; DestDir: "{app}\MonoBleedingEdge"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "D:\Documents\Unity Projects\Pen War\Builds\UnityCrashHandler32.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Documents\Unity Projects\Pen War\Builds\UnityCrashHandler64.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Documents\Unity Projects\Pen War\Builds\UnityPlayer.dll"; DestDir: "{app}"; Flags: ignoreversion
