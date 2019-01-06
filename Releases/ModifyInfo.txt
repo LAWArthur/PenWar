@@ -15,6 +15,11 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 --更新日志--
+1.5.2
+-更改了火线的行为
+-更改了魔方大厦的行为——现在它更容易旋转
+·修复重要bug
+>现在技能范围无法托起实物
 
 1.5.1
 ·新增地图——魔方大厦

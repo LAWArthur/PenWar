@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Pen War"
-#define MyAppVersion "1.5.1b1"
+#define MyAppVersion "1.5.2"
 #define MyAppPublisher "Lawarthur(Personal)"
 #define MyAppURL "http://localhost/"
 #define MyAppExeName "Pen War.exe"
