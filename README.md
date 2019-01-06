@@ -1,5 +1,14 @@
 # Pen War #
 
+> ### 目录 ###
+> #### [教程](#教程) ####
+> #### &nbsp;&nbsp; [初次游玩](#初次游玩) ####
+> #### &nbsp;&nbsp; [操作入门](#操作入门) ####
+> #### &nbsp;&nbsp;&nbsp;&nbsp; [移动](#移动) ####
+> #### &nbsp;&nbsp;&nbsp;&nbsp; [上挑](#上挑) ####
+> #### &nbsp;&nbsp; [技能](#技能) ####
+> #### &nbsp;&nbsp; [其他信息](#其他信息) ####
+
 ## 教程 ##
 
 ### 初次游玩 ###
@@ -48,4 +57,4 @@
 
 &copy;2019 LAWArthur
 
-[Lisense](https://www.gnu.org/licenses/)
+[Lisense](https://www.gnu.org/licenses/ "GNU General Public Lisense")
