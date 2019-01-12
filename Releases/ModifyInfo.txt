@@ -16,6 +16,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 --更新日志--
 
+1.5.5
+-添加游戏音乐：将倾之都
+-移除技能：泥沼
+
+1.5.4b1
+-Improved analytics
+
 1.5.4
 -增加技能：冰牢
 
