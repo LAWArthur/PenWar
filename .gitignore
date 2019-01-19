@@ -1,0 +1,9 @@
+.vs/
+Builds/
+Logs/
+obj/
+Packages/
+Temp/
+WebGLBuilds/
+Library/
+*.iss

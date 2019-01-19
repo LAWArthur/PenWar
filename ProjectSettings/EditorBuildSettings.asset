@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Index.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: c2bb00443b7696c4fb37cc732001056b
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: c89b57c394af4b841931765159299cb8
+  - enabled: 1
+    path: Assets/Scenes/Abilities.unity
+    guid: c45410f3e0bd9d84ba33dce6a84db804
+  - enabled: 1
+    path: Assets/Scenes/MultiPlayer.unity
+    guid: 7a0b6a44f10c81c45a2b5ae4a1fef4b6
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer-standalone.unity
+    guid: c0b6b23a82a39d54799f0d516dd6d0aa
+  - enabled: 1
+    path: Assets/Scenes/Game_RubiksCube.unity
+    guid: 6bc9c61c031b1da45b7f86bd72efb36a
+  m_configObjects: {}
