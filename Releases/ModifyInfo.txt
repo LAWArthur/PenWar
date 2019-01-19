@@ -14,7 +14,15 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+旧版本地址：github.com/LAWArthur/PenWar/
+
 --更新日志--
+
+1.5.7
+-添加了击杀者提示
+-技令机制更新——具体可在操作指南中查看
+-出于对某个游戏的借鉴添加了escape键暂停菜单
+-游戏平衡性微调
 
 1.5.6
 -添加两种笔
