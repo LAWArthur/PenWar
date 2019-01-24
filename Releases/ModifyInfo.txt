@@ -18,6 +18,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 --更新日志--
 
+1.5.8
+-修复一堆bug
+-增加了一些新功能
+
 1.5.7b1
 -修复bug
 
