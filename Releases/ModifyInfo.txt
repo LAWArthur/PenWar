@@ -18,6 +18,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 --更新日志--
 
+1.5.7b1
+-修复bug
+
 1.5.7
 -添加了击杀者提示
 -技令机制更新——具体可在操作指南中查看
