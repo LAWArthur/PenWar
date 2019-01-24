@@ -946,7 +946,7 @@ RectTransform:
   - {fileID: 1428525409}
   - {fileID: 540463703}
   m_Father: {fileID: 780597107}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1774,9 +1774,9 @@ RectTransform:
   - {fileID: 1264932250}
   - {fileID: 375122501}
   - {fileID: 1929736205}
-  - {fileID: 1396269914}
   - {fileID: 511791190}
   - {fileID: 1312542970}
+  - {fileID: 1396269914}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2107,8 +2107,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -6.9902763, y: 219.02313}
+  m_AnchoredPosition: {x: 0, y: -0.000030517578}
+  m_SizeDelta: {x: -6.9902763, y: 221.07968}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1078851034
 MonoBehaviour:
@@ -2158,7 +2158,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\n<size=24>Coding, Art, Design & Effects</size>\nWEI LANFENG\n\n<size=24>Music</size>\n<size=20>A
-    Peace of War</size>\nWEI LANFENG\n\n\xA92019 LAWArthur"
+    Peace of War</size>\nWEI LANFENG\n<size=20>\u5C06\u503E\u4E4B\u90FD The Being-ruined
+    City</size>\nWEI LANFENG\n\xA92019 LAWArthur"
   m_OnHrefClick:
     m_PersistentCalls:
       m_Calls: []
@@ -2627,7 +2628,7 @@ RectTransform:
   - {fileID: 1189480299}
   - {fileID: 163872072}
   m_Father: {fileID: 780597107}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2926,7 +2927,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396269913}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2934,11 +2935,11 @@ RectTransform:
   - {fileID: 1771169462}
   - {fileID: 1658923963}
   m_Father: {fileID: 780597107}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 11.311066, y: 3.998108}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1396269915
@@ -3708,7 +3709,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 948177093}
   m_HandleRect: {fileID: 948177092}
   m_Direction: 3
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:

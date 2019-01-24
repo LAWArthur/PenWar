@@ -32,7 +32,7 @@ namespace Common.Abilities
             {
                 if (Status == AbilityStatus.Ready && Input.GetKey(Key) && Input.GetKey(Basic))
                 {
-                    oldPos = Input.mousePosition;
+                    oldPos = ExternalFunctionality.MousePosition();
                     Status = AbilityStatus.Cooling;
                     StateTemp = CoolTemp;
                     return true;

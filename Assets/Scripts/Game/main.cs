@@ -166,6 +166,7 @@ class main : MonoBehaviour {
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+            Cursor.visible = true;
             GUIStyle style = new GUIStyle();
             style.alignment = TextAnchor.MiddleCenter;
             style.fontSize = 18;

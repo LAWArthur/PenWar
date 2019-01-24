@@ -60,7 +60,7 @@ namespace Common.Abilities
                 {
                     i.GetComponentInChildren<Renderer>().material.color = Color.white;
                 }
-                Ray point = Camera.main.ScreenPointToRay(Input.mousePosition);
+                Ray point = Camera.main.ScreenPointToRay(ExternalFunctionality.MousePosition());
                 RaycastHit raycastHit;
                 if(Physics.Raycast(point, out raycastHit) && raycastHit.transform.GetComponent<Controller>())
                 {

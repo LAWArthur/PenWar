@@ -101,7 +101,7 @@ namespace Common.Abilities
             if (OnGetting)
             {
                 Shared.SpectPoint = gameObject.transform.position + Vector3.up * 3;
-                linear.GetComponent<RectTransform>().localRotation = Quaternion.Euler(Vector3.forward * Mathf.Rad2Deg * Mathf.Atan2(Input.mousePosition.y - linear.transform.position.y, Input.mousePosition.x - linear.transform.position.x) + new Vector3(0f, 0f, -90f));
+                linear.GetComponent<RectTransform>().localRotation = Quaternion.Euler(Vector3.forward * Mathf.Rad2Deg * Mathf.Atan2(ExternalFunctionality.MousePosition().y - linear.transform.position.y, ExternalFunctionality.MousePosition().x - linear.transform.position.x) + new Vector3(0f, 0f, -90f));
             }
             else
             {

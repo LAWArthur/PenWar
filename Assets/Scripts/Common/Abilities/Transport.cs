@@ -64,7 +64,7 @@ namespace Common.Abilities
             yield return new WaitForSecondsRealtime(0.2f);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(ExternalFunctionality.MousePosition());
             RaycastHit hit;
             if(Physics.Raycast(ray, out hit))
             {

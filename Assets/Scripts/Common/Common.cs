@@ -40,6 +40,11 @@ namespace Common
         {
             return q.ToArray()[q.Count - 1];
         }
+
+        public static Vector3 MousePosition()
+        {
+            return Input.mousePosition + (Vector3)Random.insideUnitCircle * Shared.Shaking;
+        }
     }
 
     public enum Presets
@@ -60,5 +65,6 @@ namespace Common
     {
         public static Vector3 SpectPoint;
         public static Vector3 SpectPointOffset = Vector3.zero;
+        public static float Shaking = 1.0f;
     }
 }

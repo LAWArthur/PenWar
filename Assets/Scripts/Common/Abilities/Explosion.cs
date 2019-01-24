@@ -59,12 +59,12 @@ namespace Common.Abilities
             ExternalFunctionality.Toggle(ref OnGetting);
             yield return new WaitUntil(delegate ()
             {
-                return oldPos == Input.mousePosition ? false : true;
+                return Input.mousePosition == oldPos ? false : true;
             });
             yield return new WaitForSecondsRealtime(0.2f);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(ExternalFunctionality.MousePosition());
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {

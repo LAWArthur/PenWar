@@ -32,7 +32,7 @@ namespace Common.Abilities
             {
                 if (Status == AbilityStatus.Ready && Input.GetKey(Key) && Input.GetKey(Basic))
                 {
-                    oldPos = Input.mousePosition;
+                    oldPos = ExternalFunctionality.MousePosition();
                     Cursor.lockState = CursorLockMode.None;
                     Cursor.visible = true;
                     Cursor.SetCursor(CursorIcon, Vector2.zero, CursorMode.Auto);
@@ -57,13 +57,13 @@ namespace Common.Abilities
             yield return new WaitUntil(() => Input.GetKeyDown(Basic));
             yield return new WaitUntil(delegate ()
             {
-                return oldPos == Input.mousePosition ? false : true;
+                return oldPos == ExternalFunctionality.MousePosition() ? false : true;
             });
             float st = Time.time;
             yield return new WaitUntil(() =>
             {
                 if (Time.time - st >= 1f) return true;
-                Ray point = Camera.main.ScreenPointToRay(Input.mousePosition);
+                Ray point = Camera.main.ScreenPointToRay(ExternalFunctionality.MousePosition());
                 RaycastHit raycastHit;
                 if (!Physics.Raycast(point, out raycastHit)) return true;
                 if (raycastHit.transform.gameObject.GetComponent<ParticleSystem>()) return false;

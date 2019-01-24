@@ -290,10 +290,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: deefd6874104596478213d35c0be9290, type: 3}
-    m_FontSize: 14
+    m_FontSize: 18
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
+    m_BestFit: 0
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -2615,7 +2615,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2056167491}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.24166322
+  m_Size: 0.24577634
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

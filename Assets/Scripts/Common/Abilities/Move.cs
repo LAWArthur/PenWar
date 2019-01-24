@@ -24,7 +24,7 @@ namespace Common.Abilities
             {
                 if (Input.GetKey(Key))
                 {
-                    oldPos = Input.mousePosition;
+                    oldPos = ExternalFunctionality.MousePosition();
                     Cursor.lockState = CursorLockMode.None;
                     Cursor.visible = true;
                     Cursor.SetCursor(CursorIcon, Vector2.zero, CursorMode.Auto);
@@ -42,13 +42,13 @@ namespace Common.Abilities
         {
             yield return new WaitUntil(delegate ()
             {
-                return oldPos == Input.mousePosition ? false : true;
+                return oldPos == ExternalFunctionality.MousePosition() ? false : true;
             });
             yield return new WaitForSecondsRealtime(0.2f);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
 
-            force = new Vector3((Input.mousePosition - oldPos).x, 0f, (Input.mousePosition - oldPos).y) * Sensitivity;
+            force = new Vector3((ExternalFunctionality.MousePosition() - oldPos).x, 0f, (ExternalFunctionality.MousePosition() - oldPos).y) * Sensitivity;
             Activate(gameObject);
             gameObject.GetComponent<Controller>().StartCoroutine(gameObject.GetComponent<Controller>().Coroutine());
         }
