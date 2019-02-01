@@ -665,10 +665,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 99c2e029-fc26-4135-9fbe-0ebfb6ac3ee9
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  projectName: Pen War (4)
-  organizationId: lawarthur
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
