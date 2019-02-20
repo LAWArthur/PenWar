@@ -2030,6 +2030,8 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: "\u5355\u4EBA\uFF086\u4EBA\uFF09-\u9B54\u65B9"
       m_Image: {fileID: 0}
+    - m_Text: "\u5355\u4EBA\uFF084\u4EBA\uFF09-\u5DC5\u5CF0"
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2157,9 +2159,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\n<size=24>Coding, Art, Design & Effects</size>\nWEI LANFENG\n\n<size=24>Music</size>\n<size=20>A
-    Peace of War</size>\nWEI LANFENG\n<size=20>\u5C06\u503E\u4E4B\u90FD The Being-ruined
-    City</size>\nWEI LANFENG\n\xA92019 LAWArthur"
+  m_Text: "\n<size=24>Coding, Art, Design & Effects</size>\nLAWARTHUR\n\n<size=24>Music</size>\n<size=20>\u4E16\u5916\u9759\u8C27
+    A Peace of War</size>\nLAWARTHUR\n<size=20>\u5C06\u503E\u4E4B\u90FD The Being-ruined
+    City</size>\nLAWARTHUR\n<size=20>\u65E0\u8DEF\u53EF\u9003 No Way to Go</size>\nOX\n\n<size=24>Fonts</size>\n\u65B9\u6B63\u8212\u4F53
+    \xA9Founder Corporation. 1998\n\n\xA92019 LAWArthur"
   m_OnHrefClick:
     m_PersistentCalls:
       m_Calls: []

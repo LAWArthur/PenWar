@@ -36,6 +36,10 @@ public class StartButton : MonoBehaviour {
                 GameObject.Find("Global").GetComponent<Global>().GeneratePool();
                 SceneManager.LoadSceneAsync(6);
                 break;
+            case 4:
+                GameObject.Find("Global").GetComponent<Global>().GeneratePool();
+                SceneManager.LoadSceneAsync(7);
+                break;
         }
     }
 }

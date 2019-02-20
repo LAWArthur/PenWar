@@ -17,6 +17,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 旧版本地址：github.com/LAWArthur/PenWar/
 
 --更新日志--
+1.6.1
+-新地图：冰雪之巅！
+-新音乐：无路可逃（在此鸣谢OX童鞋）
 
 1.5.8
 -修复一堆bug
