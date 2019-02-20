@@ -54,19 +54,31 @@ namespace Common.Abilities
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
 
-            torque = gameObject.transform.up * 50f;
+            torque = Vector3.up * 50000f;
+            Debug.Log(torque);
+            Debug.DrawRay(gameObject.transform.position, torque, Color.red, 1000f);
             Activate(gameObject);
             gameObject.GetComponent<Controller>().StartCoroutine(gameObject.GetComponent<Controller>().Coroutine());
         }
 
         public override void Activate(GameObject gameObject)
         {
-            gameObject.GetComponent<Rigidbody>().AddRelativeTorque(torque);
+            gameObject.GetComponent<Controller>().StartCoroutine(ConstActive(gameObject));
+        }
+
+        IEnumerator ConstActive(GameObject gameObject)
+        {
+            float s_t = Time.time;
+            for (; Time.time - s_t < 0.5;)
+            {
+                gameObject.GetComponent<Rigidbody>().AddTorque(torque);
+                yield return new WaitForEndOfFrame();
+            }
         }
 
         public override IEnumerator AI(GameObject gameObject)
         {
-            torque = new Vector3(0f, 50f, 0f);
+            torque = new Vector3(0f, 50000f, 0f);
             Activate(gameObject);
             gameObject.GetComponent<Controller>().StartCoroutine(gameObject.GetComponent<Controller>().Coroutine());
             yield return null;
