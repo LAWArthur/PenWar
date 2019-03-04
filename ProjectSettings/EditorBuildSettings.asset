@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game_Peak.unity
     guid: faf5d0977d1ce2042bffe4346401df15
+  - enabled: 1
+    path: Assets/Scenes/Game_Sky.unity
+    guid: 41cb0c3b6ea012343bd7c5749bf40a73
   m_configObjects: {}

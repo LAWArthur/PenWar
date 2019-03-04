@@ -1817,8 +1817,8 @@ RectTransform:
   m_Father: {fileID: 119258210}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.99999994}
+  m_AnchorMin: {x: 0, y: 0.000000059604645}
+  m_AnchorMax: {x: 1, y: 0.587987}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2032,6 +2032,8 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: "\u5355\u4EBA\uFF084\u4EBA\uFF09-\u5DC5\u5CF0"
       m_Image: {fileID: 0}
+    - m_Text: "\u5355\u4EBA\uFF084\u4EBA\uFF09-\u7A7A\u9675"
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2109,8 +2111,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000030517578}
-  m_SizeDelta: {x: -6.9902763, y: 221.07968}
+  m_AnchoredPosition: {x: 0, y: -0.00000002314124}
+  m_SizeDelta: {x: -6.9902763, y: 395.88687}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1078851034
 MonoBehaviour:
@@ -2161,7 +2163,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "\n<size=24>Coding, Art, Design & Effects</size>\nLAWARTHUR\n\n<size=24>Music</size>\n<size=20>\u4E16\u5916\u9759\u8C27
     A Peace of War</size>\nLAWARTHUR\n<size=20>\u5C06\u503E\u4E4B\u90FD The Being-ruined
-    City</size>\nLAWARTHUR\n<size=20>\u65E0\u8DEF\u53EF\u9003 No Way to Go</size>\nOX\n\n<size=24>Fonts</size>\n\u65B9\u6B63\u8212\u4F53
+    City</size>\nLAWARTHUR\n<size=20>\u65E0\u8DEF\u53EF\u9003 No Way to Go</size>\nOX\n<size=20>\u5929\u7A7A\u5E7B\u60F3\u66F2
+    \ At the Top of the Sky</size>\nLAWARTHUR\n\n<size=24>Fonts</size>\n\u65B9\u6B63\u8212\u4F53
     \xA9Founder Corporation. 1998\n\n\xA92019 LAWArthur"
   m_OnHrefClick:
     m_PersistentCalls:
@@ -3459,7 +3462,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1375338350}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.9999999
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3723,8 +3726,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 948177093}
   m_HandleRect: {fileID: 948177092}
   m_Direction: 3
-  m_Value: 0
-  m_Size: 1
+  m_Value: 0.9999999
+  m_Size: 0.58798695
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
